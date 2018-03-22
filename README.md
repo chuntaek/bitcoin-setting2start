@@ -14,6 +14,7 @@ OS X command line tools 설치:
 ## 의존성
 brew 명령어를 통해서 의존성 라이브러리를 설치한다.
     
+    
     brew install automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf python qt libevent
 
 전체 개요는 [dependencies.md](https://github.com/bitcoin/bitcoin/blob/master/doc/dependencies.md) 참조
@@ -26,7 +27,7 @@ brew 명령어를 통해서 의존성 라이브러리를 설치한다.
 
 1. Bitcoin core 소스를 깃허브에서 내려받고 `bitcoin` 디렉토리로 이동한다.
 
-        git clone https://github.com/bitcoin/bitcoin
+        git clone https://github.com/bitcoin/bitcoin
         cd bitcoin
 
 2. Bitcoin core 빌드
